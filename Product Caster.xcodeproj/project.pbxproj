@@ -12,6 +12,8 @@
 		104D54B41C19FCCA00151F95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 104D54B21C19FCCA00151F95 /* Main.storyboard */; };
 		104D54B61C19FCCA00151F95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 104D54B51C19FCCA00151F95 /* Assets.xcassets */; };
 		104D54B91C19FCCA00151F95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 104D54B71C19FCCA00151F95 /* LaunchScreen.storyboard */; };
+		105796691C1CFA870027B952 /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105796681C1CFA870027B952 /* ProductDetailViewController.swift */; };
+		1057966B1C1D0D110027B952 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1057966A1C1D0D110027B952 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		104D54B51C19FCCA00151F95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		104D54B81C19FCCA00151F95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		104D54BA1C19FCCA00151F95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		105796681C1CFA870027B952 /* ProductDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductDetailViewController.swift; sourceTree = "<group>"; };
+		1057966A1C1D0D110027B952 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				104D54B51C19FCCA00151F95 /* Assets.xcassets */,
 				104D54B71C19FCCA00151F95 /* LaunchScreen.storyboard */,
 				104D54BA1C19FCCA00151F95 /* Info.plist */,
+				105796681C1CFA870027B952 /* ProductDetailViewController.swift */,
+				1057966A1C1D0D110027B952 /* TableViewController.swift */,
 			);
 			path = "Product Caster";
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			files = (
 				104D54B11C19FCCA00151F95 /* ViewController.swift in Sources */,
 				104D54AF1C19FCCA00151F95 /* AppDelegate.swift in Sources */,
+				105796691C1CFA870027B952 /* ProductDetailViewController.swift in Sources */,
+				1057966B1C1D0D110027B952 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +257,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Product Caster/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.johnpili.Product-Caster";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -260,6 +269,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Product Caster/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.johnpili.Product-Caster";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -285,6 +295,7 @@
 				104D54BF1C19FCCA00151F95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
